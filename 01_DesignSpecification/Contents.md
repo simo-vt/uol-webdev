@@ -1,4 +1,4 @@
-# What is the purpose of a theme park website?
+# What will the website contain?
 
 ## Catalogue of Services
 

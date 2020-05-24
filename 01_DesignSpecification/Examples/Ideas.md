@@ -1,4 +1,8 @@
-# What will the website contain?
+# Ideas
+
+The example websites that we have researched provide the following information and services to their visitors.
+
+We can use this document as reference to what we can provide on our own website.
 
 ## Catalogue of Services
 

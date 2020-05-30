@@ -15,8 +15,16 @@ The wire frames below will act as a guide for creating the webpage layouts. For 
 
 ## Page 2 - Tickets & Passes
 
-@todo - Add desktop and mobile version for the Tickets & Passes page
+**Tickets & Passes - Wide Screen**
+![Tickets & Passes wide screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/TicketsAndPassesWideScreen.png)
 
-## Page 3 - Events,Venues and Attractions
+**Tickets & Passes - Small Screen**
+![Tickets & Passes small screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/TicketsAndPassesSmallScreen.png)
 
-@todo - Add desktop and mobile version for the Events,Venues and Attractionspage
+## Page 3 - Discover
+
+**Discover - Wide Screen**
+![Discover wide screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/DiscoverWideScreen.png)
+
+**Discover - Small Screen**
+![Discover small screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/DiscoverSmallScreen.png)

@@ -6,9 +6,9 @@ A wire frame will be completed for each page. There will be a wire frame for des
 
 @todo - Add description for desktop and mobile version for the Home page
 
-![Home wide screen wire frame](Wireframes/Home Wireframe Wide Screen.png)
+![Home wide screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/HomeWireframeWideScreen.png)
 
-![Home small screen wire frame](Wireframes/Home Wireframe Small Screen.png)
+![Home small screen wire frame](https://github.com/simo-vt/uol-webdev/blob/master/01_DesignSpecification/Wireframes/HomeWireframeSmallScreen.png)
 
 ## Page 2 - Tickets & Passes
 

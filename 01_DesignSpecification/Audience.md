@@ -10,7 +10,7 @@ From the mass market, there are certain categories of people that are more likel
 * People looking for a way to contact the theme park for another reason.
 * People just browsing the internet.
 
-As more data about theme park visitors becomes available, more specific demographic-based targeting can be introduced. When such data is now available, it's best to aim for a more general approach.
+As more data about theme park visitors becomes available, more specific demographic-based targeting can be introduced. When such data is not available, it's best to aim for a more general approach.
 
 To meet its purpose, the website should appeal to most of the groups of people listed. 
 

@@ -7,32 +7,48 @@
   <meta name="description" content="Welcome to Fruity Land! Explore our many attractions, venues, and events!">
   <meta name="keywords" content="Fruity Land, fruit garden, picnic">
   <meta name="robots" content="noindex,nofollow">
+
+  <!-- Font downloaded from https://www.fontsquirrel.com/ -->
+  <link rel="stylesheet" type="text/css" href="font/baloo_regular_macroman/font-face.css">
+
   <!-- CSS layout provided by Lee Webster -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Discover</title>
 </head>
 <body>
   <!-- Nagivation developed by Lee Webster -->
-  <nav>
-	<!-- Information Nav -->
-	<p>
-		Today's Opening Times - 0900 - 1800
-		<a href="#">Schools</a>
-		<a href="#">Online Shop</a>
-		<a href="#">Meetings and Events</a>
-		<a href="#">Jobs</a>
-		<a href="#">Contact Us</a>
-	</p>
-	<!-- Main Nav -->
-	<!-- Logo to be added at later stage as opposed to "Home" link -->
-	<p>
-		<a href="index.html">Home</a>
-		<a href="discover.html">Discover</a>
-		<a href="pricing.html">Pricing</a>
-		<a href="#">Plan Your Visit</a>
-		<a href="#">Book Now</a>
-	</p>
-  </nav>
+  <header>
+    <!-- Information Nav -->
+    <div id="infoNav">
+      <p>Today's Opening Times - 0900 - 1800</p>
+      <nav>
+        <a href="#">Schools</a>
+        <a href="#">Online Shop</a>
+        <a href="#">Meetings and Events</a>
+        <a href="#">Jobs</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+    <!-- Main Nav -->
+    <div id="mainNav">
+      <!--
+        Based on: https://www.flaticon.com/free-icon/tree_862896
+        Attributed to: mynamepong
+      -->
+      <div id="logo">
+        <img alt="Fruity Land Logo" src="img/Logo.png" />
+        <h1>Fruity Land</h1>
+      </div>
+      <nav>
+        <!-- Logo to be added at later stage as opposed to "Home" link -->
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="#">Plan Your Visit</a>
+        <a href="#">Book Now</a>
+      </nav>
+    </div>
+  </header>
   <div id="topBannerImg">Placeholder for the top banner image</div>
 
   <!-- Discover page HTML and CSS were developed by Jonathan Speek -->
@@ -95,7 +111,7 @@
   <!-- Footer developed by Lee Webster -->
   <footer>
   	<!-- Footer to be expanded when CSS added -->
-	<p>&copy; Fruity Land 2020</p>
+	  <p>&copy; Fruity Land 2020</p>
   </footer>
 </body>
 </html>

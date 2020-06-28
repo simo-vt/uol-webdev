@@ -1,9 +1,17 @@
+/**
+ * SHARED STYLES
+ */
+
+h1, h2 {
+	font-family: "balooregular", sans-serif;
+}
+
 nav {
 	background-color: #94a00c;
 	padding: 1%;
 }
 
-#topBannerImg{
+#topBannerImg {
 	background-color: #d90057;
 	padding: 8%;
 }
@@ -32,3 +40,20 @@ footer {
 footer p{
 	margin: 0px;
 }
+
+/**
+ * HOME PAGE STYLES
+ */
+
+
+
+/**
+ * DISCOVER PAGE STYLES
+ */
+
+
+
+/**
+ * PRICING PAGE STYLES
+ */
+

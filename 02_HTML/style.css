@@ -21,6 +21,10 @@ body {
 	margin: 0px;
 }
 
+header {
+	margin: 0% 5% 0% 5%;
+}
+
 main {
 	background-color: white;
 	margin: 0% 5% 0% 5%;

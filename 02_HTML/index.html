@@ -17,38 +17,37 @@
 </head>
 <body>
   <!-- Nagivation developed by Lee Webster and Simeon Totev -->
-  <header>
-    <!-- Information Nav -->
-    <div id="infoNav">
-      <p>Today's Opening Times - 0900 - 1800</p>
-      <nav>
-    		<a href="#">Schools</a>
-    		<a href="#">Online Shop</a>
-    		<a href="#">Meetings and Events</a>
-    		<a href="#">Jobs</a>
-    		<a href="#">Contact Us</a>
-      </nav>
-    </div>
-    <!-- Main Nav -->
-    <div id="mainNav">
-      <!--
-        Based on: https://www.flaticon.com/free-icon/tree_862896
-        Attributed to: mynamepong
-      -->
-      <div id="logo">
-        <img alt="Fruity Land Logo" src="img/Logo.png" />
-        <h1>Fruity Land</h1>
-      </div>
+  <header id="header">
+    <!-- Opening Time -->
+    <div id="openingTime">Today's Opening Times - 0900 - 1800</div>
 
-      <nav>
-      	<!-- Logo to be added at later stage as opposed to "Home" link -->
-    		<a href="index.html">Home</a>
-    		<a href="discover.html">Discover</a>
-    		<a href="pricing.html">Pricing</a>
-    		<a href="#">Plan Your Visit</a>
-    		<a href="#">Book Now</a>
-      </nav>
+    <!--
+      Based on: https://www.flaticon.com/free-icon/tree_862896
+      Attributed to: mynamepong
+    -->
+    <div id="logo">
+      <img alt="Fruity Land Logo" src="img/Logo.png" />
+      <h1>Fruity Land</h1>
     </div>
+    
+    <!-- Information Nav -->
+    <nav id="infoNav">
+  		<a class="infoNavItem" href="#">Schools</a>
+  		<a class="infoNavItem" href="#">Online Shop</a>
+  		<a class="infoNavItem" href="#">Meetings and Events</a>
+  		<a class="infoNavItem" href="#">Jobs</a>
+  		<a class="infoNavItem" href="#">Contact Us</a>
+    </nav>
+
+    <!-- Main Nav -->
+    <nav id="mainNav">
+    	<!-- Logo to be added at later stage as opposed to "Home" link -->
+  		<a class="mainNavItem" href="index.html">Home</a>
+  		<a class="mainNavItem" href="discover.html">Discover</a>
+  		<a class="mainNavItem" href="pricing.html">Pricing</a>
+  		<a class="mainNavItem" href="#">Plan Your Visit</a>
+  		<a class="mainNavItem mainNavItemCta" href="#">Book Now</a>
+    </nav>
   </header>
 
   <!-- Home page content, HTML, and CSS are developed by Simeon Totev -->
@@ -108,8 +107,8 @@
   </main>
   <!-- Footer developed by Lee Webster -->
   <footer>
-	<!-- Footer to be expanded when CSS added -->
-	<p>&copy; Fruity Land 2020</p>
+  	<!-- Footer to be expanded when CSS added -->
+  	<p>&copy; Fruity Land 2020</p>
   </footer>
 </body>
 </html>

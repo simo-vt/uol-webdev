@@ -111,6 +111,15 @@ a.mainNavItem {
 
 a.mainNavItemCta {
 	color: #d90057;
+	animation-name: booknow;
+	animation-duration: 1.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes booknow{
+	0%	 { color: #d90057; }
+	50%	 { color: white; }
+	100% { color: #d90057; }
 }
 
 /** INFO MENU STYLING */

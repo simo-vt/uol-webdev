@@ -15,10 +15,12 @@ body {
 
 a, a:visited {
 	color: #94a00c;
+	text-decoration: none;
 }
 
 a:hover {
 	color: #d90057;
+	text-decoration: underline;
     transition: 0.5s;
 }
 
@@ -37,16 +39,24 @@ section h1 {
 footer {
 	background-color: #3d5e67;
 	color: white;
+	text-align: center;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-	padding: 20px;
+	padding-bottom: 20px;
 }
 
 footer p {
 	margin: 0px;
+	text-align: center;
 }
 
-
+.footerList{
+	width: 15%;
+	display: inline-block;
+	vertical-align: text-top;
+	list-style-type: none;
+	line-height: 2;
+}
 
 /**
  * HEADER GRID

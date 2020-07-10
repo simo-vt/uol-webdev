@@ -352,3 +352,91 @@ a.infoNavItem {
  * PRICING PAGE STYLES
  */
 
+#pricingPage #priceHead {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+    position: relative;
+}
+
+#pricingPage #priceHead img {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 30px;
+    display: block;
+    position: relative;
+}
+
+#pricingPage #priceHead #pricingHeadText {
+    font-weight: bold;
+    font-size: 4vmin;
+    background-color: white;
+    padding: 1% 2%;
+    opacity: .9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pricesList {
+    display: grid;
+    grid-column-gap: 5%;
+    grid-row-gap: 5%;
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#pricesList img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
+}
+
+#pricesList p {
+    text-align: left;
+}
+
+#pricesList ul {
+    text-align: left;
+}
+
+#individualPrice {
+    background: white;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(235, 235, 224);
+}
+
+#doublePrice {
+    background: white;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(235, 235, 224);
+}
+
+#familyPrice {
+    background: white;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(235, 235, 224);
+}
+
+#groupPrice {
+    background: white;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(235, 235, 224);
+}

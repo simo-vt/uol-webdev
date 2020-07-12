@@ -392,51 +392,42 @@ a.infoNavItem {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 5%;
     text-align: center;
+    position: relative;
 }
 
 #pricesList img {
     max-width: 100%;
     max-height: 100%;
-    height: auto;
-    
+    height: auto;    
 }
 
 #pricesList p {
-    text-align: left;
+    text-align: center;
 }
 
 #pricesList ul {
     text-align: left;
 }
 
-#individualPrice {
+.price {
     background: white;
     overflow: hidden;
     border-style: solid;
     border-width: 2px;
     border-color: rgb(235, 235, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#doublePrice {
-    background: white;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(235, 235, 224);
+#pricesList h5 {
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+    background-color: rgb(238, 255, 230);
 }
 
-#familyPrice {
-    background: white;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(235, 235, 224);
+#pricesList h5:hover {
+    background-color: rgb(255, 255, 204);
 }
 
-#groupPrice {
-    background: white;
-    overflow: hidden;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(235, 235, 224);
-}
